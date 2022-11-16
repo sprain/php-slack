@@ -107,6 +107,10 @@ class Commander {
                 'text'
             ]
         ],
+        'conversations.replies' => [
+            'token'    => true,
+            'endpoint' => '/conversations.replies'
+        ],
         'dnd.endDnd' => [
             'token'    => true,
             'endpoint' => '/dnd.endDnd'
